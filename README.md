@@ -47,7 +47,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Display workflow inputs
-        uses: VeyronSakai/display-inputs-action@v0.1
+        uses: bvierra/display-inputs-action@v0.1
 ```
 
 This action fetches the workflow file using GitHub API, so `actions/checkout` is not required.
@@ -65,3 +65,7 @@ When you run this action, a table like the following will be displayed in the Jo
 ## License
 
 MIT License - See [LICENSE](LICENSE) for details.
+
+## Acknowledgement
+
+This was forked from [VeyronSakai/display-inputs-action](https://github.com/VeyronSakai/display-inputs-action) to get rid to the node20 update warning all over.

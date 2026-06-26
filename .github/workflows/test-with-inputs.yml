@@ -50,7 +50,7 @@ jobs:
       - name: Display workflow inputs
         id: display-inputs
         # zizmor: ignore[unpinned-uses]
-        uses: VeyronSakai/display-inputs-action@main
+        uses: bvierra/display-inputs-action@main
 
       - name: Print inputs
         id: print-inputs
